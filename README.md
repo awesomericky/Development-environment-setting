@@ -70,12 +70,13 @@ set laststatus=2
   condo activate (env 이름)
 ```
 
-### 기타 설치 (tmux, git, htop, gpustat)
+### 기타 설치 (tmux, git, htop, gpustat, imagemagick)
 ```
   sudo apt-get install tmux
   sudo apt install git-all
   sudo apt-get install htop
   sudo apt-get install gpustat
+  sudo apt-get install imagemagick (==> can use 'display' command in terminal to view image)
 ```
 
 ### git ssh key 생성 및 등록
