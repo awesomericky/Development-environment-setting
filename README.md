@@ -1,9 +1,9 @@
 # Development-environment-setting
 
 ### Linux 설치
-Mac에서 ubuntu 부팅 usb 만들기 [link](https://lynmp.com/ko/article/roa0ea27bfcdf035b8)
-이후 Bios(F2 연타) 진입하여 부팅 순서 변경 
-+) xmp 지원시 xmp enabled로 변경 [link](https://shine72.tistory.com/18) 
+Mac에서 ubuntu 부팅 usb 만들기 [link](https://lynmp.com/ko/article/roa0ea27bfcdf035b8) \
+이후 Bios(F2 연타) 진입하여 부팅 순서 변경 \
++) xmp 지원시 xmp enabled로 변경 [link](https://shine72.tistory.com/18)
 
 ### Linux 세팅
 Chrome 설치 [link](https://itsfoss.com/install-chrome-ubuntu/) \
