@@ -1,7 +1,20 @@
 # Development-environment-setting
 
+### Linux 설치
 Mac에서 ubuntu 부팅 usb 만들기 [link](https://lynmp.com/ko/article/roa0ea27bfcdf035b8)
-https://itsfoss.com/install-chrome-ubuntu/
+이후 Bios(F2 연타) 진입하여 부팅 순서 변경 
++) xmp 지원시 xmp enabled로 변경 [link](https://shine72.tistory.com/18) 
+
+### Linux 세팅
+Chrome 설치 [link](https://itsfoss.com/install-chrome-ubuntu/)
+한글 설치 [link](https://iworldt.tistory.com/11)
+Slack 설치 [link](https://slack.com/intl/ko-kr/downloads/linux)
+gcc 설치
+```
+sudo apt install gcc
+```
+CLion 설치 [link](https://www.jetbrains.com/help/clion/installation-guide.html)
+VScode 설치 [link](https://code.visualstudio.com/docs/setup/linux)
 
 ### 설치 되어있는 패키지들의 새로운 버젼이 있는지 확인 (밑의 과정 하기 전에 필수)
 ```
