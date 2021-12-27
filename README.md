@@ -25,19 +25,20 @@ sudo apt-get update
 GPU drive —> CUDA —> cudnn 순서로 설치 진행
 1) NVIDIA GPU driver [link](https://pstudio411.tistory.com/entry/Ubuntu-2004-Nvidia%EB%93%9C%EB%9D%BC%EC%9D%B4%EB%B2%84-%EC%84%A4%EC%B9%98%ED%95%98%EA%B8%B0)
 2) CUDA [link](https://developer.nvidia.com/cuda-toolkit-archive)
-3) cudNN [link](https://developer.nvidia.com/rdp/cudnn-archive)
+3) cudNN [download link](https://developer.nvidia.com/rdp/cudnn-archive) [install guide1](https://docs.nvidia.com/deeplearning/cudnn/install-guide/index.html) [install guide2](https://kyumdoctor.co.kr/30)
 4) Final check
 ```
 nvcc --V (check CUDA version)
 nvidia-smi (check whether the GPU is correctly detected)
 ```
 
-cf) CUDA가 여러개 설치되어있고 필요할 때마다 변경해야하는 경우
+### CUDA가 여러개 설치되어있고 필요할 때마다 변경해야하는 경우
 1) /usr/local/cuda symbolic link 제거 후 원하는 버전으로 변경
 ```
 cd /usr/local
 sudo rm cuda
 sudo ln -s cuda-XX.XX cuda
+ls -la (check symbolic link)
 ```
 2) ~/.bashrc에 아래 추가 (없을 때만)
 ```
