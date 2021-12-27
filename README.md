@@ -23,6 +23,14 @@ sudo apt-get update
   
 ### GPU 기본적인 설정이 안되어 있는 경우
 GPU drive —> CUDA —> cudnn 순서로 설치 진행
+1) NVIDIA GPU driver [link](https://pstudio411.tistory.com/entry/Ubuntu-2004-Nvidia%EB%93%9C%EB%9D%BC%EC%9D%B4%EB%B2%84-%EC%84%A4%EC%B9%98%ED%95%98%EA%B8%B0)
+2) CUDA [link](https://developer.nvidia.com/cuda-toolkit-archive)
+3) cudNN [link](https://developer.nvidia.com/rdp/cudnn-archive)
+4) Final check
+'''
+nvcc --version (check CUDA version)
+nvidia-smi (check whether the GPU is correctly detected)
+'''
 
 ### z shell 설치
 1) zsh 설치
