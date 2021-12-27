@@ -27,10 +27,38 @@ GPU drive —> CUDA —> cudnn 순서로 설치 진행
 2) CUDA [link](https://developer.nvidia.com/cuda-toolkit-archive)
 3) cudNN [link](https://developer.nvidia.com/rdp/cudnn-archive)
 4) Final check
-'''
-nvcc --version (check CUDA version)
+```
+nvcc --V (check CUDA version)
 nvidia-smi (check whether the GPU is correctly detected)
-'''
+```
+
+cf) CUDA가 여러개 설치되어있고 필요할 때마다 변경해야하는 경우
+1) /usr/local/cuda symbolic link 제거 후 원하는 버전으로 변경
+```
+cd /usr/local
+sudo rm cuda
+sudo ln -s cuda-XX.XX cuda
+```
+2) ~/.bashrc에 아래 추가 (없을 때만)
+```
+export CUDA_HOME=/usr/local/cuda
+export PATH=$PATH:$CUDA_HOME/bin
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda/lib64
+```
+3) ~/.profile 수정
+```
+export PATH=/usr/local/cuda-XX.XX/bin:$PATH
+export LD_LIBRARY_PATH=/usr/local/cuda-XX.XX/lib64:$LD_LIBRARY_PATH
+```
+4) 수정 사항 반영
+```
+source ~/.bashrc
+source ~/.profile
+```
+5) 확인
+```
+nvcc -V
+```
 
 ### z shell 설치
 1) zsh 설치
