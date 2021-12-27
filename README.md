@@ -1,6 +1,7 @@
 # Development-environment-setting
 
 Mac에서 ubuntu 부팅 usb 만들기 [link](https://lynmp.com/ko/article/roa0ea27bfcdf035b8)
+https://itsfoss.com/install-chrome-ubuntu/
 
 ### 설치 되어있는 패키지들의 새로운 버젼이 있는지 확인 (밑의 과정 하기 전에 필수)
 ```
