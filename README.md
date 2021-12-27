@@ -40,7 +40,7 @@ sudo rm cuda
 sudo ln -s cuda-XX.XX cuda
 ls -la (check symbolic link)
 ```
-2) ~/.bashrc에 아래 추가 (없을 때만)
+2) ~/.zshrc에 아래 추가 (없을 때만) (zshell이 아니라 기본 쉘 사용하고 있는 경우 ~/.bashrc에 추가)
 ```
 export CUDA_HOME=/usr/local/cuda
 export PATH=$PATH:$CUDA_HOME/bin
@@ -116,8 +116,9 @@ set laststatus=2
 ```
 
 ### miniconda 설치
-1) .sh 설치 파일 실행 [link](https://docs.conda.io/en/latest/miniconda.html)
-2) 부가 설정 + 필요한 환경 생성 후 
+1) .sh 설치 파일 실행 [link](https://docs.conda.io/en/latest/miniconda.html) (기본 초기화 yes!)
+2) ~/.bashrc에 생성된 conda 경로 잡는 부분을 ~/.zshrc로 이동 (z shell 사용하는 경우)
+3) 부가 설정 + 필요한 환경 생성 후 
 ```
 conda config --set auto_activate_base false (자동 실행 막음)
 condo create -n (env 이름) (조건)
