@@ -67,6 +67,7 @@ nvcc -V
 sudo apt-get install zsh
 zsh --version
 chsh -s /usr/bin/zsh (z shell을 기본 쉘로 설정)
+이후 꼭 linux에서 로그아웃했다가 다시 로그인하기! 그래야 기본 쉘 바뀜!
 echo $SHELL (—>   /usr/bin/zsh 이 나와야함)
 ```
 2) oh-my-zsh 설치
