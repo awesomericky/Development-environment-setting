@@ -65,7 +65,7 @@ nvcc -V
 1) zsh 설치
 ```
 sudo apt-get install zsh
-zsh —version
+zsh --version
 chsh -s /usr/bin/zsh (z shell을 기본 쉘로 설정)
 echo $SHELL (—>   /usr/bin/zsh 이 나와야함)
 ```
