@@ -138,6 +138,16 @@ sudo apt-get install imagemagick (==> can use 'display' command in terminal to v
 1) key 생성 및 local ssh-agent에 등록 [link](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 2) 생성한 key git에 등록 [link](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
 
-
 ### CF
 - NVIDIA NVML Driver/library version mismatch 해결방법 [link](https://dfso2222.tistory.com/69)
+
+### git branch 생성 후 커밋
+```
+git branch XXX  (XXX branch local에 생성)
+git checkout XXX  (XXX branch로 현재 상태 변경)
+(파일들 수정 후)
+git add .
+git commit -m "남기고 싶은 메세지"
+git push origin XXX
+```
+git branch 이름 변경하기 [link](https://thdev.tech/git/2016/12/19/Git-Branch-Name-Change/)
