@@ -151,3 +151,5 @@ git commit -m "남기고 싶은 메세지"
 git push origin XXX
 ```
 git branch 이름 변경하기 [link](https://thdev.tech/git/2016/12/19/Git-Branch-Name-Change/)
+
+git add/commit 취소 [link](https://gmlwjd9405.github.io/2018/05/25/git-add-cancle.html)
