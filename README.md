@@ -128,6 +128,7 @@ condo activate (env 이름)
 ### 기타 설치 (tmux, git, htop, gpustat, imagemagick)
 ```
 sudo apt-get install tmux
+sudo apt-get install terminator
 sudo apt install git-all
 sudo apt-get install htop
 sudo apt-get install gpustat
@@ -155,3 +156,13 @@ git branch 이름 변경하기 [link](https://thdev.tech/git/2016/12/19/Git-Bran
 git add/commit 취소 [link](https://gmlwjd9405.github.io/2018/05/25/git-add-cancle.html)
 
 ### Ubuntu desktop ssh 접속 [link](https://codechacha.com/ko/ubuntu-install-openssh/)
+
+### Ubuntu terminator 단축키
+```
+* 수평 분할        : Ctrl + Shift + O
+* 수직 분할        : Ctrl + Shift + E
+* 현재 활성 창 닫기  : Ctrl + Shift + W
+* 터미네이터 실행    : Ctrl + Alt + T
+* 터미네이터 종료    : Ctrl + Shift + Q
+* 창 전환          : Alt + 방향키
+```
