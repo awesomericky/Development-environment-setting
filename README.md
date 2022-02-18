@@ -155,7 +155,9 @@ git branch 이름 변경하기 [link](https://thdev.tech/git/2016/12/19/Git-Bran
 
 git add/commit 취소 [link](https://gmlwjd9405.github.io/2018/05/25/git-add-cancle.html)
 
-### Ubuntu desktop ssh 접속 [link](https://codechacha.com/ko/ubuntu-install-openssh/) [link](https://www.cyberciti.biz/faq/ubuntu-linux-install-openssh-server/)
+### Ubuntu desktop ssh 접속 [link](https://www.digitalocean.com/community/tutorials/how-to-use-ssh-to-connect-to-a-remote-server) [link](https://codechacha.com/ko/ubuntu-install-openssh/) [link](https://www.cyberciti.biz/faq/ubuntu-linux-install-openssh-server/)
+
+### Ubuntu 방화벽 확인 [link](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=adsl6662&logNo=221175610821)
 
 ### Ubuntu terminator 단축키
 ```
