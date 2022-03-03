@@ -146,12 +146,19 @@ sudo apt-get install imagemagick (==> can use 'display' command in terminal to v
 ```
 git branch XXX  (XXX branch local에 생성)
 git checkout XXX  (XXX branch로 현재 상태 변경)
+(위 두 줄은 git checkout -b XXX 와 동일)
 (파일들 수정 후)
 git add .
 git commit -m "남기고 싶은 메세지"
 git push origin XXX
 ```
 git branch 이름 변경하기 [link](https://thdev.tech/git/2016/12/19/Git-Branch-Name-Change/)
+
+git branch 삭제
+```
+git branch -d XXX (로컬에서 branch 삭제)
+git push origin --delete XXX (원격에서 삭제)
+```
 
 git add/commit 취소 [link](https://gmlwjd9405.github.io/2018/05/25/git-add-cancle.html)
 
