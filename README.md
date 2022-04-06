@@ -24,7 +24,7 @@ sudo apt-get update
 ### GPU 기본적인 설정이 안되어 있는 경우
 GPU drive —> CUDA —> cudnn 순서로 설치 진행
 1) NVIDIA GPU driver [link](https://pstudio411.tistory.com/entry/Ubuntu-2004-Nvidia%EB%93%9C%EB%9D%BC%EC%9D%B4%EB%B2%84-%EC%84%A4%EC%B9%98%ED%95%98%EA%B8%B0)
-2) CUDA [link](https://developer.nvidia.com/cuda-toolkit-archive)
+2) CUDA [link](https://developer.nvidia.com/cuda-toolkit-archive) --> run_file(local)로 해야함. ".run" 실행후 driver 설치는 체크 해제해야함. 안 그러면 사전에 깔려있는 driver 
 3) cudNN [download link](https://developer.nvidia.com/rdp/cudnn-archive) [install guide1](https://docs.nvidia.com/deeplearning/cudnn/install-guide/index.html) [install guide2](https://kyumdoctor.co.kr/30)
 4) Final check
 ```
