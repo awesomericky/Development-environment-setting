@@ -194,3 +194,10 @@ git push --mirror
 * 터미네이터 종료    : Ctrl + Shift + Q
 * 창 전환          : Alt + 방향키
 ```
+
+### MAC iterm2 단축키 [link](http://choesin.com/%ED%82%A4%EB%B3%B4%EB%93%9C-%EB%8B%A8%EC%B6%95%ED%82%A4%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%98%EC%97%AC-mac%EC%97%90%EC%84%9C-%EC%A6%89%EC%8B%9C-%EC%A0%84%EC%B2%B4-%ED%99%94%EB%A9%B4-%ED%84%B0%EB%AF%B8)
+```
+* 새창 열기        : option + space
+* 창 수평 분할      : command + D
+* 창 수평 분할      : command + shift + D
+```
