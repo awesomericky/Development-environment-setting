@@ -142,6 +142,12 @@ sudo apt-get install imagemagick (==> can use 'display' command in terminal to v
 ### CF
 - NVIDIA NVML Driver/library version mismatch 해결방법 [link](https://dfso2222.tistory.com/69)
 
+### Ubuntu desktop gui 등에 문제가 생겨서 이상하게 나타나는 경우
+```
+sudo apt-get update
+sudo apt-get install --reinstall ubuntu-desktop
+```
+
 ### git branch 생성 후 커밋
 ```
 git branch XXX  (XXX branch local에 생성)
