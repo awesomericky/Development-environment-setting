@@ -74,7 +74,7 @@ echo $SHELL (—>   /usr/bin/zsh 이 나와야함)
 ```
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
-3) Powerlevel10k 설치 [link](https://github.com/romkatv/powerlevel10k#installation)
+3) Powerlevel10k 설치 [link](https://velog.io/@t1won/Ubuntu-powerlevel10k-%EC%84%A4%EC%B9%98) [link](https://github.com/romkatv/powerlevel10k#installation)
 (git clone 후 ‘~/zshrc’ 안을 ZSH_THEME="powerlevel10k/powerlevel10k”로 수정)
 4) 터미널 나갔다가 들어오면 하라는대로 잘 따라가면 됨
 5) .p10k.zsh 가서 색변경 (source ~/.p10k.zsh 해야 적용됨) [link](https://github.com/romkatv/powerlevel10k/blob/master/README.md#change-the-color-palette-used-by-your-terminal)
