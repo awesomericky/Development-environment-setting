@@ -207,3 +207,8 @@ git push --mirror
 * 창 수평 분할      : command + D
 * 창 수평 분할      : command + shift + D
 ```
+
+### Git
+```
+git push <remote-name> <local-branch-name>:<remote-branch-name>
+```
