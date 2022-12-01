@@ -188,6 +188,15 @@ git push --mirror
 ```
 
 ### Ubuntu desktop ssh 접속 [link](https://www.digitalocean.com/community/tutorials/how-to-use-ssh-to-connect-to-a-remote-server) [link](https://codechacha.com/ko/ubuntu-install-openssh/) [link](https://www.cyberciti.biz/faq/ubuntu-linux-install-openssh-server/)
+- 접속하려고 하는 pc가 바로 랜선에 꼽아져있고 고유 외부 ip가 있는 경우
+```
+ssh username@ 접속 pc 외부 ip (-p 포트) [기본 포트: 22]
+```
+- 접속하려고 하는 pc가 공유기에 꼽아져있는 경우 -> ifconfig로 나온 주소는 공유기가 접속하려고 하는 pc에 부여한 내부 ip. 공유기 주소로 접속후 포트 포워딩으로 해당 pc에 접속
+```
+ssh username@공유기 외부 ip -p 포트 [포트: 포워딩한 포트]
+```
+포트 포워딩은 공유기 관리자 사이트에서 진행 [link](https://velog.io/@dev2820/raspberry-pi-ssh-%EC%97%B0%EA%B2%B0%ED%95%98%EA%B8%B0)
 
 ### Ubuntu 방화벽 확인 [link](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=adsl6662&logNo=221175610821)
 
