@@ -141,6 +141,10 @@ sudo apt-get install gpustat
 sudo apt-get install imagemagick (==> can use 'display' command in terminal to view image)
 ```
 
+### Anydesk 설치
+1. Download debian file from the download link and install [link](https://anydesk.com/ko/downloads/linux?dv=deb_64)
+2. Enable "Unattended access w/ password" [link](https://en.softonic.com/articles/how-to-auto-connect-anydesk-in-3-simple-steps)
+
 ### git ssh key 생성 및 등록
 1) key 생성 및 local ssh-agent에 등록 [link](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 2) 생성한 key git에 등록 [link](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
