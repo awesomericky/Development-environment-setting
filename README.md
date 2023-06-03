@@ -26,7 +26,8 @@ GPU drive —> CUDA —> cudnn 순서로 설치 진행
 1) NVIDIA GPU driver [link](https://pstudio411.tistory.com/entry/Ubuntu-2004-Nvidia%EB%93%9C%EB%9D%BC%EC%9D%B4%EB%B2%84-%EC%84%A4%EC%B9%98%ED%95%98%EA%B8%B0)
 2) CUDA [link](https://developer.nvidia.com/cuda-toolkit-archive) --> run_file(local)로 해야함. ".run" 실행후 driver 설치는 체크 해제해야함. 안 그러면 사전에 깔려있는 driver 
 ```
-# set CUDA path (set to the symlink cuda rather than explicit cudaX.X for cases when you use multiple CUDA version
+# set CUDA path 
+# (set to the symlink cuda rather than explicit cudaX.X for cases when you use multiple CUDA version)
 export PATH="/usr/local/cuda/bin:$PATH"
 export LD_LIBRARY_PATH="/usr/local/cuda/lib64:$LD_LIBRARY_PATH"
 ```
