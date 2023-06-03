@@ -24,7 +24,7 @@ sudo apt-get update
 ### GPU 기본적인 설정이 안되어 있는 경우
 GPU drive —> CUDA —> cudnn 순서로 설치 진행
 1) NVIDIA GPU driver [link](https://pstudio411.tistory.com/entry/Ubuntu-2004-Nvidia%EB%93%9C%EB%9D%BC%EC%9D%B4%EB%B2%84-%EC%84%A4%EC%B9%98%ED%95%98%EA%B8%B0)
-2) CUDA [link](https://developer.nvidia.com/cuda-toolkit-archive) --> run_file(local)로 해야함. ".run" 실행후 driver 설치는 체크 해제해야함. 안 그러면 사전에 깔려있는 driver 
+2) CUDA [link](https://developer.nvidia.com/cuda-toolkit-archive) --> run_file(local)로 해야함. ".run" 실행후 driver 설치는 체크 해제해야함. 안 그러면 사전에 깔려있는 driver 지워짐 [[NVIDIA GPU driver & CUDA compatability](https://velog.io/@seok990301/Nvidia-driver-cuda-%EB%B2%84%EC%A0%84)]
 ```
 # set CUDA path 
 # (set to the symlink cuda rather than explicit cudaX.X for cases when you use multiple CUDA version)
