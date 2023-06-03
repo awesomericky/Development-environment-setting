@@ -25,6 +25,11 @@ sudo apt-get update
 GPU drive —> CUDA —> cudnn 순서로 설치 진행
 1) NVIDIA GPU driver [link](https://pstudio411.tistory.com/entry/Ubuntu-2004-Nvidia%EB%93%9C%EB%9D%BC%EC%9D%B4%EB%B2%84-%EC%84%A4%EC%B9%98%ED%95%98%EA%B8%B0)
 2) CUDA [link](https://developer.nvidia.com/cuda-toolkit-archive) --> run_file(local)로 해야함. ".run" 실행후 driver 설치는 체크 해제해야함. 안 그러면 사전에 깔려있는 driver 
+```
+# set CUDA path (set to the symlink cuda rather than explicit cudaX.X for cases when you use multiple CUDA version
+export PATH="/usr/local/cuda/bin:$PATH"
+export LD_LIBRARY_PATH="/usr/local/cuda/lib64:$LD_LIBRARY_PATH"
+```
 3) cudNN [download link](https://developer.nvidia.com/rdp/cudnn-archive) [install guide1](https://docs.nvidia.com/deeplearning/cudnn/install-guide/index.html) [install guide2](https://kyumdoctor.co.kr/30)
 4) Final check
 ```
@@ -74,14 +79,14 @@ echo $SHELL (—>   /usr/bin/zsh 이 나와야함)
 ```
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
-3) Powerlevel10k 설치 [link](https://velog.io/@t1won/Ubuntu-powerlevel10k-%EC%84%A4%EC%B9%98) [link](https://github.com/romkatv/powerlevel10k#installation)
+3) Powerlevel10k 설치 [link](https://github.com/romkatv/powerlevel10k#installation) --> follow "Oh My Zsh" rather than "Manual"
 (git clone 후 ‘~/zshrc’ 안을 ZSH_THEME="powerlevel10k/powerlevel10k”로 수정)
 4) 터미널 나갔다가 들어오면 하라는대로 잘 따라가면 됨
 5) .p10k.zsh 가서 색변경 (source ~/.p10k.zsh 해야 적용됨) [link](https://github.com/romkatv/powerlevel10k/blob/master/README.md#change-the-color-palette-used-by-your-terminal)
 ```
-typeset -g POWERLEVEL9K_DIR_BACKGROUND=27
+typeset -g POWERLEVEL9K_DIR_BACKGROUND=27 # default: 4 (blue, it's OK)
 typeset -g POWERLEVEL9K_DIR_FOREGROUND=254
-typeset -g POWERLEVEL9K_ANACONDA_BACKGROUND=27
+typeset -g POWERLEVEL9K_ANACONDA_BACKGROUND=27 # default: 4 (blue, it's OK)
 ```
 
 ### vim 및 vim pluggin 설치 (자동 완성 플러그인은 바로 밑에 부연 설명. 과정이 김)
