@@ -231,3 +231,15 @@ ssh username@공유기 외부 ip -p 포트 [포트: 포워딩한 포트]
 ```
 git push <remote-name> <local-branch-name>:<remote-branch-name>
 ```
+
+### Docker
+```
+docker ps   # check container history
+docker ps -a    # check currently running container
+docker start [container_name]   # start container
+docker stop [container_name]    # stop container
+docker rename [old_container_name] [new_container_name]   # rename container
+docker exec -it [container_name] bash   # attach to the container. In this way, the container does not stop even after exit
+docker attach [container_name]    # attach to the container. In this way, ctrl+p --> ctrl+q is required to exit container without stopping it. Exit naively will stop the container.
+docker container prune    # remove all the stopped container
+```
