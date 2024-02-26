@@ -31,7 +31,7 @@ GPU drive —> CUDA —> cudnn 순서로 설치 진행
 export PATH="/usr/local/cuda/bin:$PATH"
 export LD_LIBRARY_PATH="/usr/local/cuda/lib64:$LD_LIBRARY_PATH"
 ```
-3) cudNN [download link](https://developer.nvidia.com/rdp/cudnn-archive) [install guide1](https://docs.nvidia.com/deeplearning/cudnn/install-guide/index.html) [install guide2](https://kyumdoctor.co.kr/30)
+3) cudNN [download link](https://developer.nvidia.com/rdp/cudnn-archive) [install guide1](https://docs.nvidia.com/deeplearning/cudnn/install-guide/index.html) [install guide2](https://kyumdoctor.co.kr/30) [install guide3 (22.04)](https://gist.github.com/denguir/b21aa66ae7fb1089655dd9de8351a202)
 4) Final check
 ```
 nvcc --V (check CUDA version)
